@@ -28,11 +28,7 @@
                 "latitude": {"field": "Latitude", "type": "quantitative"},
                 "size": {
                     "field": "Maximum Water Height",
-                    "type": "quantitative",
-                    "scale": {
-                        "type": "threshold",
-                        "domain": [1,5,10,25,50]
-                    }
+                    "type": "quantitative"
                 },
                 "color": {
                     "field": "Earthquake Magnitude",
