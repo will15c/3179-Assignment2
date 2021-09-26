@@ -7,14 +7,14 @@
     "layer": [
         {
             "data": {
-                "url": "data/earth_map.json",
+                "url": "https://raw.githubusercontent.com/will15c/3179-Assignment2/main/data/earth_map.json",
                 "format": {"type": "topojson", "feature": "earth_map"}
             },
             "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "white"}
         },
         {
             "data": {
-                "url": "data/tsunami_data.csv"
+                "url": "https://raw.githubusercontent.com/will15c/3179-Assignment2/main/data/tsunami_data.csv"
             },
             "transform": [
                 {"filter": "datum.Maximum_Water_Height > 0"},
